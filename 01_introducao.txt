@@ -1,0 +1,86 @@
+terminologia
+    engano: 
+        Mistake
+        ação humana que produz um resultado incorreto
+        introduz um defeito no software
+    defeito (causa): 
+        Fault
+        um passo, processo ou definição de dados incorreta em um produto de software
+        o mesmo que "bug"
+        sua ativação pode produzir um erro
+    erro (causa):
+        Error
+        diferença entre o valor computado, observado ou medido e o valor teoricamente correto de a cordo com a especificação 
+        se propagado até a saída, constitui uma falha
+    falha (consequência): 
+        Failure
+        Inabilidade do sistema ou componente realizar a função requerida, considerando as questões de desempenho exigidas
+
+Casos de teste: par (entrada,saída)
+
+Etapas (cada etapa tem um relatṕrio de saída)
+    Planejamento
+    Projeto
+    Execução 
+    Análise dos resultados
+
+Fases de teste
+    Unidade
+        foco: funções, procedimentos, métodos e classes
+        testa: codificação, estrutura de dados
+        feito por: equipe de desenvolvimento
+    Integração
+        foco: estrutura do software
+        testa: interface entre unidades
+        feito por: equipe de desenvolvimento, após teste de unidade
+    Sistema
+        foco: software
+        testa: aspectos funcionais e não funcionais, como desempenho e segurança
+        feito por: equipe independente, após o sistema estar completo
+    Regressão
+        após manutenções
+
+
+Técnicas (critérios para separar domínios de entrada):
+    Teste Funcional
+        fases: unidade, integração e sistema
+        baseado em: especificações do software
+        como: criar casos de teste capazes de verificar as funções
+        exemplos: 
+            Particionamento em Classes de Equivalência
+            Análise do valor limite
+            Combinatorial
+            *Grafo de causa-efeito
+            *Error-guessing
+            *Teste funcional sistemático
+    Teste Estrutural
+        fases: unidade e integração
+        baseado em: estrutura do software
+        como: pelo grafo do programa
+        exemplos:
+            Critérios baseados em complexidade
+            Critérios baseados em fluxo de controle
+            Critérios baseados em fluxo de dados
+    Baseado em Defeitos
+        fases: unidade e integração
+        baseado em: processo de implementação do software
+        como: através de implementações alternativas
+        exemplos: 
+            Análise de Mutantes, 
+            *Mutação de Interface
+
+    *Teste de Carga
+    *Teste de Segurança
+    *Teste de Regressão
+    *Teste de Estresse
+    *Teste de Usabilidade
+    * NÃO ABORDADOS NO CURSO
+
+TMMi - Test Maturity Model Integration
+   1. Inicial
+   2. Gerenciado
+   3. Definido
+   4.
+   5. 
+   
+   -> 81 práticas! Dessas, 33 são essenciais!

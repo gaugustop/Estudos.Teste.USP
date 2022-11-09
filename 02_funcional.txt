@@ -1,0 +1,27 @@
+Técnica de Teste Funcional
+    baseia-se na especificação do produto
+    critérios
+        Particionamento em classe e equivalência
+            uma classe é um subconjunto do domínio (entrada)
+            determine classes válidas e invalidas
+            faça casos de teste que abranjam todas as classes
+        Análise do valor limite
+            use as fronteiras das classes de equivalência
+            para criar os casos de teste, escolhendo valores limites e
+            imediatamente antes e depois deles
+        Teste funcional sistemático
+        Grafo de causa-efeito
+
+Framework de teste para JAVA: JUnit
+    Anotations
+        @Test
+        @Before (executado antes de qualquer teste)
+        @After (executado depois de qualquer teste)
+        @BeforeClass (executado antes da classe de testes)
+        @AfterClass (executado depois da classe de testes)
+        @Ignore (para ignorar um teste que não deve ser executado)
+    Classes fundamentais
+        Assert (conjunto de métodos de "assertivas")
+        TestCase (define características de um caso de teste)
+        TestResult (coleta os resultados da execução de um caso de teste)
+        TestSuite (composição de um conjunto de testes)

@@ -1,0 +1,33 @@
+Técnica de Teste Estrutural
+    Usa o código do programa para definir requisitos de testes e deles
+    derivar os casos de teste. O objetivo é observar as estruturas que 
+    compõe o programa e garantir que todas elas tenham sido executadas 
+    durante o teste.    
+
+   Grafo de Fluxo de Controle (GFC).
+        vértices: blocos de códigos executados juntos
+        arestas: transferência de execução de um bloco para outro
+
+       Casos de testes
+            Todos-nós ou cobertura de comandos:
+                todos os nós devem ser executados pelo menos uma vez
+            Todos-arcos ou cobertura de ramos ou cobertura de desvios:
+                todas as arestas devem ser testadas pelo menos uma vez
+                Existem "requisitos não executáveis"
+
+   Fluxo de Dados
+        Controle da definição e uso de variáveis
+        Um caso de teste para cada definição e uso de cada variável
+        Casos de teste de melhor qualidade
+        Custo mais alto
+        Muitos requisitos não executáveis
+
+   Ferramentas
+        JAVA: JaBUTi, Eclemma, Cobertura
+        C++: gcc,gcov,gcovr
+        GCC (Gnu Compiler Collection)
+            Conjunto de ferramentas
+            Permite que o código seja compilado para colher informações 
+            de cobertura
+            Execução do código instrumentado permite saber quais trechos 
+            do código foram executados
