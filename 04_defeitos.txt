@@ -1,0 +1,15 @@
+Critério Baseado em Defeitos
+Teste de Mutação
+    Operadores de mutação (75 operadores!)
+        Comandos
+        Operadores
+        Variáveis
+        Constantes
+Mutante morto é aquele que é detectado por algum caso de teste. 
+Ele é morto pelo caso de teste.
+Mutante equivalente: um mutante que não pode ser morto, 
+deve ser desconsiderado.
+Escore de mutação = Mutantes Mortos / (Total de Mutantes - Mutantes Equivalentes)
+
+Ferramenta: Proteum (C)
+Outras ferramentas: MuJava, Major, Pitest

@@ -1,0 +1,19 @@
+BDD - Gherkin
+https://cucumber.io/docs/gherkin/
+Python e Selenium
+-> Teste de Sanidade
+-> teste manual de novas funcionalidades
+-> Testes de mutação
+-> Testes estruturais (caixa branca)
+   -> Testes de estress
+   -> Testes de carga
+   -> Testes de unidade
+   -> Testes de comportamento
+   -> Testes de integração
+-> Testes funcionais (caixa preta)
+   -> Testes de regressão
+   -> Testes de fumaça
+   -> Testes de aceita
+   -> Testes automatizados (parte visual)
+
+VER: ACEITAÇÃO, INTEGRAÇÃO, REGRESSÃO
